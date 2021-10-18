@@ -264,9 +264,9 @@ body{
 					.connectedTxt{
 						position: absolute;
 						display: block;
-						top: 9px;
+						top: 12px;
 						/* bottom: 23px; */
-						right: 69px;
+						right: 66px;
 						width: 162px;
 						height: 33px;
 						margin-left: 12px;
@@ -672,8 +672,8 @@ body{
 					}
 					.sockGifWrap{
 						position: absolute;
-						top:30px;
-						left: 60px;
+						top: 23px;
+				    left: 0;
 					}
 
 					.modalWrap:hover .fox{
@@ -977,7 +977,7 @@ body{
 						display: none;
 						flex-direction: column;
 						justify-content: center;
-						top: 599px;
+						top: 572px;
 						color: #E5E3E0;
 						width: 100%;
 					}
@@ -1045,7 +1045,7 @@ body{
 
 					.buyNowTxt, .infobuyNowTxt{
 						position:absolute;
-						bottom: 21px;
+						bottom: 20px;
 						font-family: 'Germania';
 						font-size:40px;
 						color:white;
@@ -1095,7 +1095,7 @@ body{
 
 					.selltxt{
 						position:absolute;
-						top: 7px;
+						top: 9px;
 						width:100%;
 						font-family: 'Germania';
 						font-size:32px;
@@ -1364,7 +1364,7 @@ body{
 
 			.infoButtons{
 				position:absolute;
-				bottom: 123px;
+				bottom: 95px;
 				left: 61px;
 			}
 			.buybuy{
@@ -1530,7 +1530,7 @@ body{
 					padding: 13px 10px 0 10px;
 				}
 				.sellredeem .redeeming .selltxt{
-					font-size: 19px !important;
+					font-size: 16px !important;
 				}
 
 				.infobck{
@@ -1554,12 +1554,12 @@ body{
 					height: 693px;
 				}
 				.walletButtTxtSoon{
-					top: 9px;
+					top: 10px;
 					left: -1px;
 					font-size: 26px;
 				}
 				.buyModal .buyeditInfoWrap{
-					top: 381px;
+					top: 372px;
 				}
 				.brownBoardTxt{
 					font-size:10px !important;
@@ -1645,7 +1645,7 @@ body{
 					/* margin: 0 130px; */
 					white-space: nowrap;
 					/* background: black; */
-					bottom: 10px;
+					bottom: 12px;
 					font-size: 29px;
 				}
 
@@ -1806,9 +1806,9 @@ body{
 				margin-right: auto;
 			}
 			.editInfoWrap{
-				bottom: 125px;
+				bottom: 129px;
 				flex-direction: row;
-				padding:0 0 0 18px;
+				/* padding:0 0 0 18px; */
 				margin:0;
 				width:100%;
 			}
@@ -1866,7 +1866,7 @@ body{
 			}
 			.connectTxt, .connectedTxt{
 				right: 65px;
-				top: 1px;
+				top: 4px;
 				width:105px
 			}
 			.connectWallTxt{
@@ -2021,7 +2021,7 @@ body{
 				height:50px
 			}
 			.walletButtTxt{
-				top: 6px;
+				top: 8px;
 				left: 3px;
 			}
 			.walletConnBoard{

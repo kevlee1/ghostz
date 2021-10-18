@@ -42,8 +42,8 @@ ismobile();
       const total = "";
       const num = mintCount.toString();
       const minted = num + total;
-      document.getElementById("incrementCount").innerText = minted;
-      document.getElementById("incrementCount2").innerText = minted;
+      // document.getElementById("incrementCount").innerText = minted;
+      // document.getElementById("incrementCount2").innerText = minted;
     }
   }
 
@@ -334,31 +334,6 @@ ismobile();
   setInterval(cycleText, 2000);
 
   // Buy socks / Counter
-
-  var incrementValue = document.getElementsByClassName('incrementValue')[0];
-
-  function addone(){
-    // console.log(incrementValue.innerText);
-    // console.log("yo");
-    var currentNum = incrementValue.innerText;
-
-    currentNum++;
-    incrementValue.innerText = currentNum;
-
-  }
-
-  document.getElementsByClassName("plus")[0].addEventListener('click', addone);
-
-  function minusone(){
-    var currentNum = incrementValue.innerText;
-
-    if (currentNum != 1) {
-      currentNum--;
-      incrementValue.innerText = currentNum;
-    }
-  }
-
-  document.getElementsByClassName("minus")[0].addEventListener('click', minusone);
 
 
   async function buyingSockz(){

@@ -42,7 +42,7 @@ ismobile();
       const total = "";
       const num = mintCount.toString();
       const minted = num + total;
-      // document.getElementById("incrementCount").innerText = minted;
+      document.getElementById("incrementCount").innerText = minted;
       // document.getElementById("incrementCount2").innerText = minted;
     }
   }
